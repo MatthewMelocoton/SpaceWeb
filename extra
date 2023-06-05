@@ -1,0 +1,33 @@
+ <header class="header1">
+        <a href="news.html">News</a>
+        <a href="learn more.html".html">Learn More</a>
+        <a href="merch.html">Products</a>
+    </header>
+
+    .header1{
+        width: 100%;
+        height: 50px;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .header1 a{
+        text-decoration: none;
+        font-family: roboto;
+        color: black;
+        font-size: 30px;
+        float: right;
+        margin-top: 7px;
+        margin-right: 222px;
+        margin-left: 0px;
+    }
+    .header1 a:hover{
+        color: white;
+        -webkit-text-stroke: black 1px;
+        transition-duration: 0.1s;
+    }
+    .header1 a:not(:hover){
+        color: black;
+        -webkit-text-stroke: black 1px;
+        transition-duration: 0.4s;
+    }
